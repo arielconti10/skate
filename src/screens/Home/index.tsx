@@ -1,5 +1,5 @@
 import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
-import { StyleSheet, Text, View, Dimensions } from 'react-native';
+import { StyleSheet, View, Dimensions, Text } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <MapView style={styles.map} provider={PROVIDER_GOOGLE} />
+      <MapView style={styles.map} showsMyLocationButton />
     </View>
   );
 }

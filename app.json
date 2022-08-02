@@ -2,10 +2,12 @@
   "expo": {
     "name": "skate",
     "slug": "skate",
+    "scheme": "skate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "owner": "arielconti10",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -20,7 +22,7 @@
     "ios": {
       "supportsTablet": true,
       "config": {
-        "googleMapsApiKey": "AIzaSyAjlQJn135oxYb71mus8YWzdRt44DMKExo"
+        "googleMapsApiKey": "AIzaSyDwqhW8Nw7Xg7sSETB_625m_yNj3KSjQ0w"
       }
     },
     "android": {
